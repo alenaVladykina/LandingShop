@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/LandingShop/static/css/main.e067bd36.css",
+    "main.js": "/LandingShop/static/js/main.8244e208.js",
+    "static/js/787.ec78c698.chunk.js": "/LandingShop/static/js/787.ec78c698.chunk.js",
+    "static/media/header-img.jpg": "/LandingShop/static/media/header-img.3266b145a803ea6064bc.jpg",
+    "static/media/promo.png": "/LandingShop/static/media/promo.b3de5252093d0ba02cc4.png",
+    "static/media/promo-01.jpg": "/LandingShop/static/media/promo-01.4fc3ca39e368bb92d886.jpg",
+    "static/media/vouchers-img.png": "/LandingShop/static/media/vouchers-img.254242f146515a766546.png",
+    "static/media/cat-03.jpg": "/LandingShop/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
+    "static/media/cat-01.jpg": "/LandingShop/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
+    "static/media/promo-02.jpg": "/LandingShop/static/media/promo-02.27a2e3f6b94c48d6427b.jpg",
+    "static/media/cat-02.jpg": "/LandingShop/static/media/cat-02.da44a5e6d64780d948d6.jpg",
+    "static/media/Levis.svg": "/LandingShop/static/media/Levis.b650083c8faddf24f1a337fd952aef47.svg",
+    "static/media/Amazon.svg": "/LandingShop/static/media/Amazon.3536108f49cc2fcaa2becb5460f12ec8.svg",
+    "static/media/HM.svg": "/LandingShop/static/media/HM.62d430bac151e672cb78160b6063f84a.svg",
+    "static/media/Shopify.svg": "/LandingShop/static/media/Shopify.d61de969b75d71b03a781addb02f056e.svg",
+    "static/media/Lacoste.svg": "/LandingShop/static/media/Lacoste.89d0749e6bc51a0dd8fa907a2de834e3.svg",
+    "static/media/Obey.svg": "/LandingShop/static/media/Obey.12fdd60ce98fafc305c636fb5cb6117a.svg",
+    "static/media/logo.svg": "/LandingShop/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "static/media/inst.svg": "/LandingShop/static/media/inst.732079676e1f1e8f5ab8d3607bb89ff5.svg",
+    "static/media/tw.svg": "/LandingShop/static/media/tw.28bd6c068f25e4ae67cd362b1da1f8d2.svg",
+    "static/media/in.svg": "/LandingShop/static/media/in.4129b910559039efab168699f9e7c86f.svg",
+    "index.html": "/LandingShop/index.html",
+    "static/media/fb.svg": "/LandingShop/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
+    "static/media/decor-yellow.svg": "/LandingShop/static/media/decor-yellow.a14a51327547871fd595.svg",
+    "static/media/arrow.svg": "/LandingShop/static/media/arrow.2010425cba77118e6ad3.svg",
+    "static/media/arrowWhite.svg": "/LandingShop/static/media/arrowWhite.d11b8aedd1dc1b8c6b72.svg",
+    "static/media/arrowPreviosWhite.svg": "/LandingShop/static/media/arrowPreviosWhite.791d7442363411164aaa.svg",
+    "static/media/arrowPrevios.svg": "/LandingShop/static/media/arrowPrevios.501afcbc64a990cce7c1.svg",
+    "main.e067bd36.css.map": "/LandingShop/static/css/main.e067bd36.css.map",
+    "main.8244e208.js.map": "/LandingShop/static/js/main.8244e208.js.map",
+    "787.ec78c698.chunk.js.map": "/LandingShop/static/js/787.ec78c698.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e067bd36.css",
+    "static/js/main.8244e208.js"
+  ]
+}
