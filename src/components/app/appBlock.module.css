@@ -1,0 +1,187 @@
+.appBlock {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.appBlock_container {
+    display: flex;
+    padding: 0 119px 0 119px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appBlock_content {
+    display: block;
+    max-width: 507px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.5em;
+    margin-bottom: 41px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: var(--gray);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: -0.9px;
+    margin-bottom: 65px;
+}
+
+.appBlock_btn {
+    display: flex;
+}
+
+.appBlock_btn {
+    display: flex;
+    column-gap: 20px;
+}
+
+.appBlock_btn img {
+    max-width: 236px;
+    max-height: 71px;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1720px) {
+    .appBlock_container {
+        padding: 0 0 0 100px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .appBlock_container {
+        padding: 0;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .appBlock_btn img {
+        max-width: 200px;
+        max-height: 65px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .appBlock_container {
+        padding: 0;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .appBlock_btn img {
+        max-width: 150px;
+        max-height: 55px;
+    }
+
+    .appBlock_content {
+        display: block;
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 766px) {
+    .appBlock {
+        margin-bottom: 100px;
+    }
+    .appBlock_container {
+        padding: 0 30px 0 30px;
+        flex-direction: column;
+    }
+
+    .appBlock_content {
+        display: block;
+        max-width: 100%;
+    }
+
+    .appBlock_img {
+        max-height: 400px;
+    }
+
+    .title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .appBlock_btn img {
+        max-width: 170px;
+        max-height: 65px;
+    }
+
+    .appBlock_img img {
+        display: block;
+        max-height: 500px;
+        margin-left: 0;
+    }
+
+    .appBlock_btn {
+        display: flex;
+        column-gap: 60px;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+    .appBlock {
+        margin-bottom: 100px;
+    }
+
+    .appBlock_container {
+        padding: 0 30px 0 30px;
+        flex-direction: column;
+    }
+
+    .appBlock_content {
+        display: block;
+        max-width: 100%;
+    }
+
+    .appBlock_img {
+        max-height: 400px;
+    }
+
+    .title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .appBlock_btn img {
+        max-width: 100px;
+        max-height: 65px;
+    }
+
+    .appBlock_img img {
+        display: block;
+        max-height: 400px;
+        margin-left: 0;
+    }
+
+    .appBlock_btn {
+        display: flex;
+    }
+
+}

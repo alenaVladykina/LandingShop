@@ -1,0 +1,80 @@
+
+.image_arrivals {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.title {
+    color: var(--textColor);
+    font-size: 32px;
+    line-height: 1.56em;
+    letter-spacing: -1.28px;
+}
+
+.subtitle {
+    color: var(--gray);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 2.08em;
+    letter-spacing: -0.96px;
+}
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /*.card {*/
+    /*    width: 50%;*/
+    /*}*/
+    .title {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    .subtitle {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    /*.card {*/
+    /*    margin-right: 0;*/
+    /*    width: 100%;*/
+    /*}*/
+    .title {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+}
+

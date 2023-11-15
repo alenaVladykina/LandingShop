@@ -1,0 +1,220 @@
+.arrivals {
+    padding: 120px 0 140px 0;
+    display: block;
+    position: relative;
+    /*z-index: 0;*/
+}
+
+.arrivals_header {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 114px;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    padding-right: 6%;
+}
+
+.slider_line:nth-child(3n+3) {
+    padding-right: 0;
+}
+
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    /*height: 900px;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider_line {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    white-space: nowrap;
+    position: relative;
+}
+
+.buttonSliderBack {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    top: 45%;
+    left: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.buttonSliderNext {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    top: 45%;
+    right: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttonSliderBack::before {
+    content: "";
+    background: url("../../images/icons/arrowPrevios.svg") no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+
+
+.buttonSliderNext::after {
+    content: "";
+    background: url("../../images/icons/arrow.svg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.buttonSliderBack:hover {
+    opacity: 0.5;
+}
+
+.buttonSliderNext:hover {
+    opacity: 0.5;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+
+    .buttonSliderBack:before {
+        background: url("../../images/icons/arrowPreviosWhite.svg");
+    }
+
+    .buttonSliderNext:after {
+        background: url("../../images/icons/arrowWhite.svg");
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .arrivals {
+        padding: 70px 0 70px 0;
+    }
+
+    .arrivals_header {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .buttonSliderBack {
+        top: 42%;
+        left: 30px;
+    }
+
+    .buttonSliderNext {
+        top: 42%;
+        right: 30px;
+    }
+
+    .buttonSliderBack::before {
+        background: url("../../images/icons/arrowPreviosWhite.svg") no-repeat;
+    }
+
+    .buttonSliderNext:after {
+        background: url("../../images/icons/arrowWhite.svg") no-repeat;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .arrivals {
+        padding: 50px 30px 50px 30px;
+    }
+
+    .arrivals_header {
+        font-size: 30px;
+        margin-bottom: 30px
+    }
+
+    .buttonSliderBack {
+        top: 45%;
+        left: 70px;
+    }
+
+    .buttonSliderNext {
+        top: 45%;
+        right: 80px;
+    }
+
+    .buttonSliderBack::before {
+        background: url("../../images/icons/arrowPreviosWhite.svg") no-repeat;
+    }
+
+    .buttonSliderNext:after {
+        background: url("../../images/icons/arrowWhite.svg") no-repeat;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .card {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .arrivals_header {
+        font-size: 35px;
+        margin-bottom: 60px;
+    }
+
+    .arrivals {
+        padding: 50px 30px 50px 30px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttonSliderBack {
+        height: 20%;
+        width: 20%;
+        top: 45%;
+        left: 25px;
+    }
+
+    .buttonSliderNext {
+        height: 20%;
+        width: 20%;
+        top: 45%;
+        right: 45px;
+    }
+
+    .buttonSliderBack::before {
+        background: url("../../images/icons/arrowPreviosWhite.svg") no-repeat;
+    }
+
+    .buttonSliderNext:after {
+        background: url("../../images/icons/arrowWhite.svg") no-repeat;
+    }
+}
+
+

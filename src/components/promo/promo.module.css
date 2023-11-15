@@ -1,0 +1,359 @@
+.promo {
+    margin-bottom: 63px;
+    width: 100%;
+}
+
+
+.promo_content {
+    border-radius: 59px;
+    padding: 77px 0 90px 120px;
+    max-height: 852px;
+    background-color: #F4F6F5;
+    background-image: url('../../images/image/header-img.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex;
+    background-size: 871px 784px;
+    justify-content: space-between;
+}
+
+.promo_title {
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 1.25em;
+    color: var(--textColor);
+}
+
+
+.promo_title span {
+    display: block;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span {
+    position: relative;
+    z-index: 1;
+}
+
+.highlight::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -12px;
+    bottom: -5px;
+    left: -20px;
+    right: -60px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+
+.highlight__yellow {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight__yellow span {
+    position: relative;
+    z-index: 1;
+}
+
+.highlight__yellow::before {
+    content: "";
+    position: absolute;
+    background-color: #EBD96B;
+    transform: rotate(-2deg);
+    top: -12px;
+    bottom: -5px;
+    left: -20px;
+    right: -60px;
+}
+
+.promo_subtitle {
+    color: var(--textColor);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -1.6px;
+}
+
+.promo__btn {
+    width: 221px;
+    height: 82px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 30px;
+}
+
+.promo__btn:hover {
+    opacity: 0.8;
+}
+
+.promo__wrapper__btn {
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+
+}
+
+.promo__wrapper__btn::before {
+    content: '';
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('../../images/icons/decor-yellow.svg');
+    top: 100px;
+    bottom: -100px;
+}
+
+.promo_img img {
+    display: none;
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1720px) {
+    .promo_content {
+        max-height: 852px;
+        max-width: 100%;
+        background-size: contain;
+    }
+
+    .promo_title {
+        font-size: 66px;
+        font-weight: 900;
+        line-height: 1.25em;
+    }
+
+    .highlight::before {
+        top: -6px;
+        bottom: -6px;
+        left: 0;
+        right: 0;
+    }
+
+    .highlight__yellow::before {
+        top: -6px;
+        bottom: -6px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .promo_subtitle {
+        font-size: 28px;
+    }
+
+    .promo__btn {
+        width: 170px;
+        height: 62px;
+        font-size: 25px;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .promo_content {
+        max-height: 628px;
+        padding: 50px 0 50px 50px;
+        background-size: contain;
+        /*border-radius: 0;*/
+    }
+
+    .promo_title {
+        max-width: 507px;
+        font-size: 66px;
+        font-weight: 900;
+        line-height: 1.25em;
+    }
+
+    .highlight::before {
+        top: -6px;
+        bottom: -6px;
+        left: -20px;
+        right: 120px;
+    }
+
+    .highlight__yellow::before {
+        top: -6px;
+        bottom: -6px;
+        left: -20px;
+        right: 30px;
+    }
+
+    .promo_subtitle {
+        font-size: 24px;
+    }
+
+    .promo__btn {
+        width: 170px;
+        height: 55px;
+        font-size: 24px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .promo {
+        margin-bottom: 0;
+    }
+
+    .promo_content {
+        border-radius: 49px;
+        padding: 20px 0 20px 50px;
+        background-size: 55% 97%;
+        margin-bottom: 30px;
+        /*border-radius: 0;*/
+    }
+
+
+    .promo_title {
+        max-width: 507px;
+        font-size: 55px;
+        font-weight: 900;
+        line-height: 1.25em;
+    }
+
+    .highlight::before {
+        top: 0;
+        bottom: 0;
+        left: -20px;
+        right: 120px;
+    }
+
+    .highlight__yellow::before {
+        top: 0;
+        bottom: 0;
+        left: -20px;
+        right: 60px;
+    }
+
+    .promo_subtitle {
+        font-size: 22px;
+    }
+
+    .promo__wrapper__btn::before {
+        display: none;
+    }
+
+    .promo__btn {
+        width: 170px;
+        height: 55px;
+        font-size: 22px;
+    }
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .promo {
+        margin-bottom: 0;
+    }
+
+    .promo_content {
+        padding: 50px 0 20px 25px;
+        background-image: none;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+
+    .promo_title {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 1.25em;
+        margin-bottom: 20px;
+    }
+
+    .highlight::before {
+        display: none;
+    }
+
+    .highlight__yellow::before {
+        display: none;
+    }
+
+    .promo_subtitle {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .promo_title span {
+        display: inline;
+    }
+
+    .promo__btn {
+        width: 170px;
+        height: 55px;
+        font-size: 24px;
+    }
+
+    .promo_img img {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .promo__wrapper__btn::before {
+        display: none;
+        white-space: pre-wrap;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .promo {
+        margin-bottom: 0;
+    }
+
+    .promo_content {
+        padding: 50px 0 20px 25px;
+        background-image: none;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+
+    .promo_title {
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 1.25em;
+        margin-bottom: 15px;
+    }
+
+    .highlight::before {
+        display: none;
+    }
+
+    .highlight__yellow::before {
+        display: none;
+    }
+
+    .promo_subtitle {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .promo_title span {
+        display: inline;
+    }
+
+    .promo__btn {
+        width: 150px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .promo_img img {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .promo__wrapper__btn::before {
+        display: none;
+        white-space: pre-wrap;
+    }
+}

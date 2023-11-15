@@ -1,0 +1,78 @@
+.brands {
+    width: 100%;
+    background-color: #EBD96B;
+    padding: 58px 0;
+}
+
+.brands_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brand {
+    display: block;
+}
+
+
+.brand_lacoste {
+    display: block;
+    align-self: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .brands {
+        width: 100%;
+        background-color: #EBD96B;
+        padding: 20px 0;
+    }
+
+    .brand {
+        max-height: 40px;
+    }
+
+    .brand_lacoste {
+        max-height: 40px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .brands {
+        padding: 0;
+    }
+
+    .brands_wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .brand {
+        padding: 10px 0;
+        max-height: 60px;
+    }
+
+    .brand_lacoste {
+        max-height: 60px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+    .brands {
+        padding: 0;
+    }
+
+    .brands_wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .brand {
+        padding: 10px 0;
+        max-height: 60px;
+    }
+
+    .brand_lacoste {
+        max-height: 60px;
+    }
+}
