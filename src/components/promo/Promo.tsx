@@ -28,7 +28,7 @@ export const Promo = () => {
 
         </div>
         <div className={s.promo_img}>
-          <img src={image}/>
+          <img alt='image' src={image}/>
         </div>
       </div>
     </section>

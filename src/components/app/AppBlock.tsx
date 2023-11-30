@@ -14,7 +14,7 @@ export const AppBlock = () => {
             <h2 className={s.title}>DOWNLOAD APP & GET THE VOUCHER!</h2>
             <p className={s.subtitle}>
               Get 30% off for first transaction using
-              Rondovision mobile app for now.
+              Rondo vision mobile app for now.
             </p>
             <div className={s.appBlock_btn}>
               <a href={'#'}><img src={appStore} alt={''}/></a>
@@ -22,7 +22,7 @@ export const AppBlock = () => {
             </div>
           </div>
           <div className={s.appBlock_img}>
-            <img src={vouchers}/>
+            <img alt='image' src={vouchers}/>
           </div>
         </div>
       </div>

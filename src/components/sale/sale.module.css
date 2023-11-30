@@ -110,10 +110,9 @@
     }
 
     .sale_btn {
-        width: 205px;
-        height: 75px;
         border-radius: 10px;
         font-size: 25px;
+        padding: 20px 30px;
     }
 
     .sale_btn:hover {
